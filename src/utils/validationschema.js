@@ -5,8 +5,8 @@ export const addUservalidnSchema=
         errorMessage: "USER_name can't be empty"
       },
       isLength: {
-        options: { min: 6, max: 12 },
-        errorMessage: "USER_name min of 3 and max 12 chars"
+        options: { min: 3, max: 12 },
+        errorMessage: "USER_Name min of 3 and max 12 chars"
       }
   },
   password:
